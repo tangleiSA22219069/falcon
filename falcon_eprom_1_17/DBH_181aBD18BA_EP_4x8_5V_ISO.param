@@ -1,0 +1,57 @@
+//============================================================ DBH Header-Start =====//
+// PLEASE BE ADVISED THAT:                                                           //
+// All the database in DBH Design Kit (including any information or attachments to   //
+// this Design Kit) are the exclusive property of DB HiTek Co., Ltd.                 //
+//                                                                                   //
+// All copyright, trademark and other intellectual property and proprietary rights   //
+// in the text, graphics and all other materials originated or used by DB HiTek at   //
+// the database for DBH Design Kit are reserved to DB HiTek. The database or any     //
+// part thereof must be used only for the purpose of NDA or any other agreement      //
+// executed between DB HiTek and you (or your company) and not be used, reproduced,  //
+// published, adapted, modified, displayed, distributed or sold in any manner, in    //
+// any form or media, without the prior written permission of DB HiTek.              //
+//                                                                                   //
+// A breach of this notice may result in irreparable and continuing damage to DB     //
+// HiTek for which there may be no adequate remedy at law, and DB HiTek shall be     //
+// entitled to seek injunctive relief and/or a decree for specific performance, and  //
+// such other relief (including monetary damages) as may be proper.                  //
+//===================================================================================//
+
+//===================================================================================//
+// File Name        : DBH_181aBD18BA_EP_4x8_5V_ISO.param                             //
+// IP Type          : 4x8bit EPROM Isolated 5V IP                                    //
+// DK Type          : Verilog (test-bench, parameter)                                //
+// Process Name     : 181aBD18BA                                                     //
+// Version          : 2.0.10                                                         //
+// Update           : 08/02/2019                                                     //
+//===================================================================================//
+//                                  Revision History                                 //
+//===================================================================================//
+// Version     Date(MM/DD/YYYY)    Who            Description                        //
+//===================================================================================//
+// 1.2.10      05/09/2018          OY SHIM        Initial Release                    //
+// 2.0.10      08/02/2019          JE KIM         Updates Timing Parameters(tRD,tAC) //
+//============================================================ DBH Header-End =======//
+
+
+
+// 4x8bit
+	`define BIT_ADDR_BITS	2
+	`define DATA_BITS       8
+	`define Word_Depth      4
+// Parameters
+	`define para_tCEs     	200
+	`define para_tCEh     	200
+	`define para_tADs	200	
+	`define para_tADh       200	
+	`define para_tPDs       200	
+	`define para_tPDh       200	
+	`define para_tPGM_min   1000000
+	`define para_tPGM_max   1200000
+	`define para_tRD 	600   	
+	`define para_tAC	550   
+
+
+
+
+
